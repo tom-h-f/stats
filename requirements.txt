@@ -5,3 +5,9 @@ scipy
 statsmodels
 empiricaldist
 statadict
+seaborn
+sympy
+tables
+html5lib
+lxml
+jupyter

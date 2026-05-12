@@ -1,0 +1,3 @@
+[submodule "ThinkStats"]
+	path = ThinkStats
+	url = https://github.com/AllenDowney/ThinkStats.git
