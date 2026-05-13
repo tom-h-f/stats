@@ -1,13 +1,81 @@
+# --- JupyterLab core ---
+jupyterlab>=4
+ipykernel
+ipywidgets
+
+# --- JupyterLab extensions ---
+jupyterlab-vim>=4
+jupyterlab-code-formatter
+jupyterlab-spellchecker
+jupyterlab-execute-time>=3
+jupyterlab-git
+theme-darcula
+jupyterlab-day
+jupyterlab-night
+
+# --- Formatters ---
+ruff
+black
+
+# --- Core numerics ---
 numpy
-pandas
-matplotlib
 scipy
+sympy
+mpmath
+numba
+
+# --- Data wrangling ---
+pandas
+polars
+pyarrow
+openpyxl
+xlrd
+sqlalchemy
+
+# --- Statistics ---
 statsmodels
+pingouin
+arviz
 empiricaldist
 statadict
+
+# --- Machine learning ---
+scikit-learn
+xgboost
+lightgbm
+catboost
+shap
+optuna
+
+# --- Deep learning (CPU) ---
+torch
+torchvision
+
+# --- Data viz ---
+matplotlib
 seaborn
-sympy
-tables
+plotly
+altair
+bokeh
+hvplot
+plotnine
+folium
+wordcloud
+itables
+
+# --- Interactive / dashboards ---
+dash
+
+# --- Utilities ---
+tqdm
+rich
+requests
+httpx
+pydantic
+python-dotenv
+networkx
+
+# --- Binder legacy deps ---
 html5lib
 lxml
-jupyter
+tables
