@@ -12,6 +12,7 @@ jupyterlab-git
 theme-darcula
 jupyterlab-day
 jupyterlab-night
+jupyterlab-dash
 
 # --- Formatters ---
 ruff
